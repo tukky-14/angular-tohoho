@@ -14,6 +14,7 @@ import { UserListComponent } from './user/user-list/user-list.component';
 import { UserEditComponent } from './user/user-edit/user-edit.component';
 import { ConfirmDialogComponent } from './tools/confirm-dialog/confirm-dialog.component';
 import { OtherComponent } from './other/other.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { OtherComponent } from './other/other.component';
     UserListComponent,
     UserEditComponent,
     ConfirmDialogComponent,
-    OtherComponent
+    OtherComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
