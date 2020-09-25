@@ -13,6 +13,7 @@ import { UserService } from './user/user.service';
 import { UserListComponent } from './user/user-list/user-list.component';
 import { UserEditComponent } from './user/user-edit/user-edit.component';
 import { ConfirmDialogComponent } from './tools/confirm-dialog/confirm-dialog.component';
+import { OtherComponent } from './other/other.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ConfirmDialogComponent } from './tools/confirm-dialog/confirm-dialog.co
     DashboardComponent,
     UserListComponent,
     UserEditComponent,
-    ConfirmDialogComponent
+    ConfirmDialogComponent,
+    OtherComponent
   ],
   imports: [
     BrowserModule,

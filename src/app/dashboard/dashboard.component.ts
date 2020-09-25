@@ -7,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardComponent implements OnInit {
   message: string;
+  text: string;
 
   constructor() {
     this.message = 'This is a sample of Angular application';
+    this.text = 'hello world';
   }
 
   ngOnInit(): void {
